@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTHakgyoansimMonggeulmonggeulR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMonggeulmonggeulR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-	font-family: 'Noto Sans', sans-serif;
-	background: #caebf2;
+	font-family: 'Ownglyph_meetme-Rg';
+	background: #ffe6f3;
 	color: #001f3f;
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'TTHakgyoansimMonggeulmonggeulR';
 }
 
 .container {
@@ -126,7 +140,7 @@ form input[type="submit"] {
 
 .submit-button-wrapper {
 	margin: 20px 0;
-    background-color: aqua;
+    background-color: rgb(249, 185, 206);
     color: black;
 }
 
